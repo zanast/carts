@@ -10,4 +10,4 @@ RUN mvn package \
 
 EXPOSE 80
 
-CMD java -jar /run/carts.jar --port=80
+CMD java -jar /run/carts.jar --port=8080
